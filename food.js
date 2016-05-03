@@ -2,6 +2,7 @@ function executeThisCodeAfterFileIsLoaded () {
   var data = JSON.parse(this.responseText);
   console.log(data);
   makeDogContainer(data.dog_brands);
+ 
 }
 function executeThisCatAfterFileIsLoaded() {
 	var catData = JSON.parse(this.responseText);
@@ -50,7 +51,6 @@ function makeCatContainer(object) {
 		}
 	}
 }
-	
 // Create an XHR object
 var myRequest = new XMLHttpRequest();
 var myCatRequest = new XMLHttpRequest();
@@ -68,3 +68,4 @@ myCatRequest.open("GET", "catfood.json");
 // Tell the XHR object to start
 myRequest.send();
 myCatRequest.send();
+
