@@ -1,62 +1,68 @@
 {
-  "dog_brands": [
+  "cat_brands": [
     {
-      "name": "Chuck wagon",
+      "name": "Purina",
+      "breeds": ["Siamese", "Bengal", "Showshoe", "Munchkin"],
       "types": [
         {
-          "type": "all_natural",
+          "type": "kitten",
           "volumes": [
             {
-              "name": "32oz",
-              "price": 9.99
+              "volume": "20oz",
+              "price": 19.99
             },
             {
-              "name": "64oz",
-              "price": 17.99
+              "volume": "32oz",
+              "price": 26.99
+            },
+            {
+              "volume": "64oz",
+              "price": 34.99
             }
           ]
         },
         {
-          "type": "standard",
+          "type": "elite",
           "volumes": [
             {
-              "name": "58oz",
-              "price": 12.99
+              "volume": "20oz",
+              "price": 24.99
             },
             {
-              "name": "72oz",
-              "price": 21.99
+              "volume": "40oz",
+              "price": 47.99
             }
           ]
         }
       ]
     },
     {
-      "name": "Purina",
+      "name": "Meow Meal",
+      "breeds": ["Manx", "Egytian Mau", "Himalayan", "Rag doll"],
       "types": [
         {
-          "type": "puppy",
+          "type": "kitten",
           "volumes": [
             {
-              "name": "16oz",
-              "price": 8.99
+              "volume": "24oz",
+              "price": 19.99
             },
             {
-              "name": "24oz",
-              "price": 14.99
+              "volume": "48oz",
+              "price": 34.99
             }
           ]
         },
         {
-          "type": "standard",
+          "type": "adult",
           "volumes": [
             {
-              "name": "58oz",
-              "price": 19.99
+              "volume": "28oz",
+              "price": 22.99
             },
             {
-              "name": "72oz",
-              "price": 24.99
+              "volume": "56oz",
+              "price": 40.99
             }
           ]
         }
